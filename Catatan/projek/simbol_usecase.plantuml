@@ -1,0 +1,24 @@
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor Admin as Admin
+rectangle Aplikasi {
+    usecase (Login) as UC1
+    usecase (Akses Halaman Utama) as UC2
+    usecase (Kelola Data Kuli) as UC3
+    usecase (Kelola Customer) as UC4
+    usecase (Kelola Data Penyewaan) as UC5
+
+    Admin -- UC1 : 
+    Admin -- UC2 : Dapat mengakses halaman utama
+    Admin -- UC3 : Dapat mengelola data Kuli
+    Admin -- UC4 : Dapat mengelola Customer
+    Admin -- UC5 : Dapat mengelola data penyewaan
+
+    UC3 --> UC4 : (extend)
+    UC3 --> UC5 : (extend)
+}
+
+@enduml

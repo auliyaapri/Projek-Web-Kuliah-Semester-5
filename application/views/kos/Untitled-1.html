@@ -1,0 +1,525 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <title>buka kos</title>
+
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="http://localhost:9000/kos_online/assets/img/icon-title.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="http://localhost:9000/kos_online/assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="http://localhost:9000/kos_online/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="http://localhost:9000/kos_online/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="http://localhost:9000/kos_online/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="http://localhost:9000/kos_online/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-white"><div class="container-fluid bg-white p-0">
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark px-0 fixed-top">
+        <div class="row gx-0 align-items-center">
+            <div class="col-lg-3 bg-dark d-none d-lg-block">
+                <a href="http://localhost:9000/kos_online/welcome"
+                    class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 class="m-0 text-primary text-uppercase">
+                        <img src="http://localhost:9000/kos_online/assets/img/logo.png" class="w-50" alt="">
+                    </h1>
+                </a>
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                        <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                            <a aria-current="page" href="http://localhost:9000/kos_online/welcome"
+                                class="nav-item nav-link">Beranda</a>
+                            <a href="http://localhost:9000/kos_online/about" class="nav-item nav-link">About</a></a>
+                            <a href="http://localhost:9000/kos_online/accomodation" class="nav-item nav-link">Kos-Kosan</a></a>
+                            <a href="http://localhost:9000/kos_online/contact" class="nav-item nav-link">Contact</a></a>
+                            <!-- ============= buka kos ============= -->
+                                                                                        <a href="http://localhost:9000/kos_online/buka_kos" class="nav-item nav-link active"><i class="fas fa-plus"></i> Buka Kos</a></a>
+                                                        <!-- ============= end buka kos ============= -->
+
+                            <!-- ============= User ============= -->
+                            <a href="http://localhost:9000/kos_online/auth/login" class="nav-item nav-link ">
+                                                            </a>
+
+         
+                                                            <div class="dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fas fa-user"></i> user123                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#"><i class="fas fa-user-edit"></i> Ubah Profil</a></li>
+                                        <li><a class="dropdown-item" href="http://localhost:9000/kos_online/pemesanan_kos"><i class="fas fa-shopping-cart"></i> Pesanan Saya</a></li>
+                                        <li><a class="dropdown-item" href="http://localhost:9000/kos_online/kelola_kos"><i class="fas fa-home"></i> Kelola Kosss</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="fas fa-cog"></i> Pengaturan</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="http://localhost:9000/kos_online/auth/logout"><i class="fas fa-sign-out-alt"></i> Keluar</a></li>
+                                    </ul>
+                                </div>
+                                                        <!-- ============= User ============= -->
+
+                            <style>
+                                .dropdown-menu {
+                                    left: -50px;
+                                    /* Sesuaikan nilai negatif sesuai dengan kebutuhan Anda */
+                                    position: absolute;
+                                }
+                            </style>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Header End --><div class="container-fluid bg-white p-0">
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mt-5 p-0" style="background-image: url(http://localhost:9000/kos_online/assets/img/banner-page.png);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center pb-5">
+                <h1 class="display-4 text-white mb-3 animated slideInDown mt-5">Buka Kos</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h6 class="section-title text-start text-primary text-uppercase">Edit Kos</h6>
+                    <h1 class="mb-4">Input Data Kos</h1>
+                    <h1 class="mb-4">
+                    <p>User ID: 2</p>
+
+                    </h1>
+                    <p class="mb-4">Silakan masukan data kos anda dengan lengkap agar orang yang membutuhkan mudah mencarinya.</p>
+                    <form action="http://localhost:9000/kos_online/pages/buka_kos/tambah_kos" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Nama Kos / Pemilik</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nama_kos">
+                                                                    </div>
+                            </div>
+                            <div class="col-6 d-none">
+                                <div class="mb-3">
+                                    <input type="hidden" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="user_id" value="2">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1" class="form-label fw-bold">Kategori</label>
+                                        <select class="form-select" aria-label="Default select example" name="kategori">
+                                            <option value="">-- Pilih Kategori --</option>
+                                            <option value="Pria">Pria</option>
+                                            <option value="Wanita">Wanita</option>
+                                        </select>
+                                                                            </div>
+                                </div>
+                            </div>
+                            <!-- ========== Nomor Rekekning  ========== -->
+
+                            <!-- ========== Alamat  ========== -->
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="alamat" class="form-label fw-bold">Alamat Kods</label>
+                                        <textarea type="text" class="form-control" id="alamat_kos" aria-describedby="alamat_kos" name="alamat_kos"> </textarea>
+                                                                            </div>
+                                </div>
+                            <!-- ========== Alamat  ========== -->
+
+
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Nomor Rekening Anda</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nomor_rekening">
+                                                                    </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Bank Anda</label>
+                                    <select class="form-select" aria-label="Default select example" name="bank">
+                                            <option value="">-- Pilih Bank --</option>
+                                            <option value="BCA">BCA</option>
+                                            <option value="BRI">BRI</option>
+                                            <option value="BNI">BNI</option>
+                                            <option value="CIMB Niaga">CIMB Niaga</option>
+                                            <option value="Danamon">Danamon</option>
+                                            <option value="Permata">Permata</option>
+                                            <option value="Mega">Mega</option>
+                                            <option value="OCBC NISP">OCBC NISP</option>
+                                        </select>
+                                                                    </div>
+                            </div>
+                            <!-- ========== Nomor Rekekning  ========== -->
+
+                            <!-- ========== FASILITAS KAMAR  ========== -->
+                            <div class="col-12 mt-3">
+                                <label class="form-label fw-bold">Fasilitas Kamar</label>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar[]" id="checkbox1" value="AC">
+                                            <label class="form-check-label" for="checkbox1">
+                                                AC
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar[]" id="checkbox2" value="Meja Belajar">
+                                            <label class="form-check-label" for="checkbox2">
+                                                Meja Belajar
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar[]" id="checkbox3" value="Meja Rias">
+                                            <label class="form-check-label" for="checkbox3">
+                                                Meja Rias
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar[]" id="checkbox4" value="Kasur">
+                                            <label class="form-check-label" for="checkbox4">
+                                                Kasur
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar[]" id="checkbox5" value="TV">
+                                            <label class="form-check-label" for="checkbox5">
+                                                TV
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar[]" id="checkbox6" value="Sofa">
+                                            <label class="form-check-label" for="checkbox6">
+                                                Sofa
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar[]" id="checkbox7" value="Dispenser">
+                                            <label class="form-check-label" for="checkbox7">
+                                                Dispenser
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar[]" id="checkbox8" value="Lemari Baju">
+                                            <label class="form-check-label" for="checkbox8">
+                                                Lemari Baju
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar" id="checkbox9" value="Jendela">
+                                            <label class="form-check-label" for="checkbox9">
+                                                Jendela
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            </div>
+                            <!-- ========== END FASILITAS KAMAR  ========== -->
+                            <!-- ========== FASILITAS KAMAR MANDI  ========== -->
+                            <div class="col-12 mt-3">
+                                <label class="form-label fw-bold">Fasilitas Kamar Mandi</label>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox1" value="K. Mandi Dalam">
+                                            <label class="form-check-label" for="checkbox1">
+                                                K. Mandi Dalam
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox2" value="Shower">
+                                            <label class="form-check-label" for="checkbox2">
+                                                Shower
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox3" value="Kloset Duduk">
+                                            <label class="form-check-label" for="checkbox3">
+                                                Kloset Duduk
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox4" value="Kloset Jongkok">
+                                            <label class="form-check-label" for="checkbox4">
+                                                Kloset Jongkok
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox5" value="Wastafel">
+                                            <label class="form-check-label" for="checkbox5">
+                                                Wastafel
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox6" value="Ember Mandi">
+                                            <label class="form-check-label" for="checkbox6">
+                                                Ember Mandi
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox7" value="K. Mandi Luar">
+                                            <label class="form-check-label" for="checkbox7">
+                                                K. Mandi Luar
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox8" value="Bak Mandi">
+                                            <label class="form-check-label" for="checkbox8">
+                                                Bak Mandi
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="fasilitas_kamar_mandi[]" id="checkbox9" value="Air Panas">
+                                            <label class="form-check-label" for="checkbox9">
+                                                Air Panas
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                                            </div>
+
+                            <!-- ========== END FASILITAS KAMAR MANDI  ========== -->
+
+
+                            <div class="row">
+                                <div class="col-6 mt-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Jumlah Kamar</label>
+                                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="jumlah_kamar">
+                                                                    </div>
+
+                                <div class="col-6 mt-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Harga / Perbulan</label>
+                                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="harga">
+                                                                    </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 mt-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Peraturan</label>
+                                    <textarea name="peraturan" id="" cols="30" rows="10" class="form-control"></textarea>
+                                    
+                                </div>
+
+                                <div class="col-12 mt-3">
+                                    <label for="exampleInputEmail1" class="form-label fw-bold">Deskripsi Kos kosan</label>
+                                    <textarea name="deskripsi" id="" cols="30" rows="10" class="form-control"></textarea>
+                                                                    </div>
+
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-6 mt-3">
+                                    <label for="foto1" class="form-label fw-bold">Foto 1</label>
+                                    <input type="file" class="form-control bg-transparent" id="foto1" name="foto_kos_1">
+                                </div>
+                                <div class="col-6 mt-3">
+                                    <label for="foto2" class="form-label fw-bold">Foto 2</label>
+                                    <input type="file" class="form-control bg-transparent" id="foto2" name="foto_kos_2">
+                                </div>
+                                <div class="col-6 mt-3">
+                                    <label for="foto3" class="form-label fw-bold">Foto 3</label>
+                                    <input type="file" class="form-control bg-transparent" id="foto3" name="foto_kos_3">
+                                </div>
+                                <div class="col-6 mt-3">
+                                    <label for="foto4" class="form-label fw-bold">Foto 4</label>
+                                    <input type="file" class="form-control bg-transparent" id="foto4" name="foto_kos_4">
+                                </div>
+                                <div class="col-6 mt-3">
+                                    <label for="foto5" class="form-label fw-bold">Foto 5</label>
+                                    <input type="file" class="form-control bg-transparent" id="foto5" name="foto_kos_5">
+                                </div>
+
+                            </div>
+                                                        <div class="col-12 mt-4">
+                                <button type="submit" class="w-100 btn btn-primary text-capitalize">Daftar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-6">
+                    <h6 class="section-title text-start text-primary text-uppercase">Info Membuka Kos</h6>
+                    <h1 class="mb-4">Info Membuka Kos</h1>
+                    <ul>
+                        <li>
+                            <p>Isikan nama kos atau nama pemilik dari kos agar pengguna yang lain mudah untuk mencarinya serta isikan kategori kos agar dapat membatasi user yang ingin memesan sesuai kategori saja yang dibolehkan.</p>
+                        </li>
+                        <!-- Tambahkan tombol Lihat Selengkapnya -->
+                        <li>
+                            <p>Isikan Fasilitas yang disediakan oleh kos anda sehingga pengguna bisa mengetahui dan berminat untuk memesan kos anda.</p>
+                        </li>
+                        <li>
+                            <p>Isikan jumlah kamar dan harga kos anda seperti diketahui harga ini menjadi prioritas pertama untuk pengguna mencarinya.</p>
+                        </li>
+                        <li>
+                            <p> Isikan keterangan atau bisa juga peraturan yang ada dikos anda sehingga sebelum pengguna lain memesan dia sudah tau dengan peraturan atau keterangan dikos anda..</p>
+                        </li>
+
+                        <li>
+                            <p>Pilihlah kampus terdekat dengan kos anda,biasanya pengguna menginginan kos yang terdekat dengan kampus atau tempat kerjanya.</p>
+                        </li>
+                        <li>
+                            <p>Lengkapi kos anda dengan foto yang sebenarnya kami menyediakan 3 tempat untuk 3 foto kos anda diharapkan masing-masing foto dengan posisi yang berbeda.</p>
+                        </li>
+                        <li>
+                            <p>Dengan mendaftar berarti anda sudah bersedia berkerja sama dengan kos awak dan diharapkan nomor telepon anda selalu aktif untuk kami beritahu jika ada informasi yang harus kami beritahu kepada anda.</p>
+                        </li>
+                        <li>
+                            <p>Pastikan data kos anda sesuai dengan yang diinginan kos awak serta tidak melanggar undang-undang ,jika melanggar kos anda tidak akan kami proses atau tidak ditampilkan dimenu utama.</p>
+                        </li>
+                        <li>
+                            <p> Terimakasih atas kerja sama nya.</p>
+                        </li>
+                    </ul>
+                    <!-- Tombol Lihat Selengkapnya -->
+                </div>
+
+            </div>
+            <!-- ================= INFO BUKA KOS -->
+
+        </div>
+    </div>
+</div>
+<!-- About End -->        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s" style="margin-top: 20vh;">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="border border-primary rounded p-4">
+
+                            <img src="http://localhost:9000/kos_online/assets/img/logo.png" class="w-75 mb-4" alt="">
+
+                            <p class="text-white mb-0">
+                                Selamat datang di <span class="fw-bold text-danger">KOS.ID</span>, tempat yang tepat untuk menemukan kos-kosan yang nyaman dan terjangkau. Kami siap membantu Anda menemukan tempat tinggal yang ideal. Temukan kenyamanan dan keamanan di setiap kamar kos kami. Jelajahi pilihan-pilihan yang tersedia dan buat pengalaman hunian Anda lebih baik bersama FiveKos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>JL. Jatiwaringin</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 8967754100</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>kos.id@gmail.com</p>
+
+                    </div>
+                    <div class="col-md-12 col-lg-5">
+                        <div class="row gy-5 g-4">
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Follow Us</h6>
+                                <p class="mb-2">Ikuti kami untuk mendapatkan kabar terbaru dari kami, dan produk kami, serta pembaruan dari tim kami.</p>
+                                <div class="d-flex pt-2">
+                                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="" href="#">KOS.ID                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End --> <!-- JavaScript Libraries -->
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="http://localhost:9000/kos_online/assets/lib/wow/wow.min.js"></script>
+    <script src="http://localhost:9000/kos_online/assets/lib/easing/easing.min.js"></script>
+    <script src="http://localhost:9000/kos_online/assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="http://localhost:9000/kos_online/assets/lib/counterup/counterup.min.js"></script>
+    <script src="http://localhost:9000/kos_online/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="http://localhost:9000/kos_online/assets/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="http://localhost:9000/kos_online/assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="http://localhost:9000/kos_online/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="http://localhost:9000/kos_online/assets/js/main.js"></script>
+
+    <script src="http://localhost:9000/kos_online/assets/sweet-alert/sweetalert2.all.min.js"></script>
+
+</body>
+
+</html><script>
+    // =============== LOGIN & REGISTER ===============
+
+                // =============== PENGELOLA KOS USER===============
+
+            Swal.fire({
+            title: 'Success!',
+            text: 'Kos anda berhasil ditambah',
+            icon: 'success',
+            confirmButtonText: 'Oke'
+        })
+    // ==================
+
+    
+// ==================
+  
+    
+                
+    
+    // =============== CONTACT ===============
+            
+    // ================================
+    </script>
