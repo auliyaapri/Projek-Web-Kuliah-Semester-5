@@ -3,8 +3,7 @@ Proyek Web Kuliah Semester 5 - Teknologi Web Service✨ Pada tugas ini, kami dit
 
 
 ## 💻 Demo Website
-![kopi kila github](https://github.com/user-attachments/assets/e9177316-aa35-4817-85b3-51d9a6f7fd37)
-
+![image](https://github.com/user-attachments/assets/31ecf9fb-2399-4708-9b84-4ad73e1a3c36)
 
 https://www.youtube.com/watch?v=OCJJ4_BYnv4
 
