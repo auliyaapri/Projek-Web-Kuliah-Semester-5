@@ -10,8 +10,7 @@ Pada tugas ini, kami ditugaskan untuk mengembangkan sebuah situs web menggunakan
 
 ![Demo Website](https://github.com/user-attachments/assets/31ecf9fb-2399-4708-9b84-4ad73e1a3c36)
 
-[Klik untuk melihat demo di YouTube](https://www.youtube.com/watch?v=OCJJ4_BYnv4)
-
+[![Tonton di YouTube](https://img.shields.io/badge/Tonton%20di%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=OCJJ4_BYnv4)
 ---
 
 ## 🚀 Tech Stack Used
@@ -22,7 +21,7 @@ Pada tugas ini, kami ditugaskan untuk mengembangkan sebuah situs web menggunakan
 
 ---
 
-## 🔧 Panduan Instalasi
+## 📝 Panduan Instalasi
 
 ### Prasyarat
 
